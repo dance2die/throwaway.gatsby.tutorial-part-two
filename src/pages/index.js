@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "gatsby-link";
-import Container from "./Container";
+import Container from "../components/Container";
 
 export default () => (
   <Container>
@@ -26,5 +26,7 @@ export default () => (
     <p>Posted April 09, 2011</p>
     <br />
     <Link to="/page-2">Page 2</Link>
+    <br />
+    <Link to="/about-css-modules">About CSS Modules</Link>
   </Container>
 );
