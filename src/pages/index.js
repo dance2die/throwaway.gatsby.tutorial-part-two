@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "gatsby-link";
-import Container from "../components/Container";
+import Container from "../components/container";
 
 export default () => (
   <Container>
